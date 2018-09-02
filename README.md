@@ -44,14 +44,13 @@ Features
 - GPIO wrapper functions for reading/writing in a simple way.
 - xpt2046 touch controller input
 
-To build the library, simply type 'make' in the terminal. To build the sample
-app, type 'make -f make_sample'. This will build the 'lcd' executable to show
-that the library is working.
+To build this class example simply type 'make' in the terminal. This will build the main.cpp example file, the library in this version has been moved into a class file which can be used within projects without the need for an external library.
+
+NOTE: This class has only been tested on ARM Linux, no other MCU has been tested.
 
 Copyright (c) 2017 by Larry Bank
 Project started 4/25/2017
-bitbank@pobox.com<br>
+bitbank@pobox.com
 
-If you find this code useful, please consider buying me a cup of coffee<br>
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SR4F44J2UR8S4)
 
+Code Updated 2018 by Zo0x
